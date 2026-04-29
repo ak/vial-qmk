@@ -25,6 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef DYNAMIC_KEYMAP_LAYER_COUNT
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #define TAPPING_TERM 180
+// #define PERMISSIVE_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS
 
 //#define USE_MATRIX_I2C
 #ifdef KEYBOARD_crkbd_rev1_legacy
@@ -37,6 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_LEFT
 // #define MASTER_RIGHT
 // #define EE_HANDS
+#define SPLIT_USB_DETECT
 
 #define USE_SERIAL_PD2
 #ifdef RGBLIGHT_ENABLE
